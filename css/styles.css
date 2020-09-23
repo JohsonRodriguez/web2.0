@@ -7,3 +7,13 @@ ol, ul{
 figure{
     margin: 0;
 }
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px; /* <---- solo agregamos esta linea */
+  }
+  .header ol {
+    display: flex;
+  }
